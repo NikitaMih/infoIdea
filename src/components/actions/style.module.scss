@@ -1,0 +1,17 @@
+.img {
+    width: 15px;
+    height: 15px;
+}
+
+.btn {
+    outline: none;
+    border: 1px solid white;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 3px;
+
+    &:hover {
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+}

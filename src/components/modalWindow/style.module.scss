@@ -1,0 +1,40 @@
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: invert(80%);
+}
+
+.window {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30%;
+    padding: 1% 2%;
+    border-radius: 5px;
+}
+
+.input {
+    margin: 1% 0 5%;
+    font-size: 18px;
+}
+
+.buttons {
+    align-self: flex-end;
+}
+
+.btn {
+    outline: none;
+    border: 1px solid black;
+    background: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-size: 18px;
+}
